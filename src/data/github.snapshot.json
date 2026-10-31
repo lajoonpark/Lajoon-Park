@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-10-31T00:49:20.264Z",
+  "fetchedAt": "2026-10-31T10:55:43.304Z",
   "login": "lajoonpark",
   "createdAt": "2026-03-27T22:43:25Z",
   "followers": 0,
   "publicRepos": 8,
-  "stars": 1,
+  "stars": 2,
   "forks": 0,
   "releases": 22,
   "languages": [
@@ -34,7 +34,7 @@
     },
     {
       "name": "JavaScript",
-      "bytes": 105414
+      "bytes": 105018
     },
     {
       "name": "Astro",
@@ -46,8 +46,8 @@
     }
   ],
   "contributions": {
-    "total": 151,
-    "commits": 119,
+    "total": 152,
+    "commits": 120,
     "pullRequests": 12,
     "issues": 10,
     "reviews": 0,
@@ -857,13 +857,13 @@
         },
         {
           "date": "2026-03-27",
-          "count": 0,
-          "level": 0
+          "count": 1,
+          "level": 1
         },
         {
           "date": "2026-03-28",
-          "count": 1,
-          "level": 1
+          "count": 0,
+          "level": 0
         }
       ],
       [
@@ -1942,12 +1942,12 @@
       [
         {
           "date": "2026-10-18",
-          "count": 1,
+          "count": 2,
           "level": 1
         },
         {
           "date": "2026-10-19",
-          "count": 2,
+          "count": 1,
           "level": 1
         },
         {
@@ -1962,13 +1962,13 @@
         },
         {
           "date": "2026-10-22",
-          "count": 2,
-          "level": 1
+          "count": 3,
+          "level": 2
         },
         {
           "date": "2026-10-23",
-          "count": 3,
-          "level": 2
+          "count": 2,
+          "level": 1
         },
         {
           "date": "2026-10-24",
@@ -2009,7 +2009,7 @@
         },
         {
           "date": "2026-10-31",
-          "count": 1,
+          "count": 2,
           "level": 1
         }
       ]
@@ -2020,10 +2020,10 @@
       "name": "lajoonpark.com",
       "description": null,
       "url": "https://github.com/lajoonpark/lajoonpark.com",
-      "homepage": null,
+      "homepage": "https://lajoonpark-com.vercel.app",
       "stars": 0,
       "forks": 0,
-      "pushedAt": "2026-10-31T00:17:58Z",
+      "pushedAt": "2026-10-31T05:57:33Z",
       "language": "CSS",
       "release": null,
       "releaseCount": 0
@@ -2045,7 +2045,7 @@
       "description": null,
       "url": "https://github.com/lajoonpark/Wren",
       "homepage": null,
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "pushedAt": "2026-10-30T06:30:06Z",
       "language": "Swift",
