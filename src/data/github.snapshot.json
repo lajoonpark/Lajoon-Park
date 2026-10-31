@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-31T00:15:43.794Z",
+  "fetchedAt": "2026-10-31T00:49:20.264Z",
   "login": "lajoonpark",
   "createdAt": "2026-03-27T22:43:25Z",
   "followers": 0,
@@ -10,7 +10,7 @@
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 758602
+      "bytes": 769418
     },
     {
       "name": "Rust",
@@ -21,12 +21,12 @@
       "bytes": 279928
     },
     {
-      "name": "HTML",
-      "bytes": 182839
+      "name": "CSS",
+      "bytes": 197371
     },
     {
-      "name": "CSS",
-      "bytes": 148397
+      "name": "HTML",
+      "bytes": 182839
     },
     {
       "name": "Svelte",
@@ -34,7 +34,11 @@
     },
     {
       "name": "JavaScript",
-      "bytes": 84637
+      "bytes": 105414
+    },
+    {
+      "name": "Astro",
+      "bytes": 13934
     },
     {
       "name": "Shell",
@@ -42,8 +46,8 @@
     }
   ],
   "contributions": {
-    "total": 150,
-    "commits": 118,
+    "total": 151,
+    "commits": 119,
     "pullRequests": 12,
     "issues": 10,
     "reviews": 0,
@@ -2005,22 +2009,22 @@
         },
         {
           "date": "2026-10-31",
-          "count": 0,
-          "level": 0
+          "count": 1,
+          "level": 1
         }
       ]
     ]
   },
   "repos": [
     {
-      "name": "Lajoon-Park",
+      "name": "lajoonpark.com",
       "description": null,
-      "url": "https://github.com/lajoonpark/Lajoon-Park",
+      "url": "https://github.com/lajoonpark/lajoonpark.com",
       "homepage": null,
       "stars": 0,
       "forks": 0,
-      "pushedAt": "2026-10-30T23:32:01Z",
-      "language": null,
+      "pushedAt": "2026-10-31T00:17:58Z",
+      "language": "CSS",
       "release": null,
       "releaseCount": 0
     },

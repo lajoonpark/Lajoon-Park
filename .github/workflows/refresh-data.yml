@@ -1,0 +1,35 @@
+name: Refresh GitHub data
+
+# Vercel builds without a GitHub token, so it renders from the committed snapshot
+# (src/data/github.snapshot.json). This job refreshes that snapshot once a day;
+# the commit to main triggers a new Vercel deployment.
+
+on:
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # The build fetches live data and rewrites the snapshot. An optional PAT (read:user) in the
+      # GH_STATS_TOKEN secret adds private-contribution counts; otherwise the default token is used.
+      - run: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+      - name: Commit refreshed snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/github.snapshot.json
+          git diff --cached --quiet || { git commit -m "Refresh GitHub snapshot" && git push; }
