@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-31T10:55:43.304Z",
+  "fetchedAt": "2026-11-01T11:50:58.045Z",
   "login": "lajoonpark",
   "createdAt": "2026-03-27T22:43:25Z",
   "followers": 0,
-  "publicRepos": 8,
+  "publicRepos": 9,
   "stars": 2,
   "forks": 0,
   "releases": 22,
@@ -46,49 +46,12 @@
     }
   ],
   "contributions": {
-    "total": 152,
-    "commits": 120,
+    "total": 154,
+    "commits": 121,
     "pullRequests": 12,
     "issues": 10,
     "reviews": 0,
     "weeks": [
-      [
-        {
-          "date": "2025-10-26",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-10-27",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-10-28",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-10-29",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-10-30",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-10-31",
-          "count": 0,
-          "level": 0
-        },
-        {
-          "date": "2025-11-01",
-          "count": 0,
-          "level": 0
-        }
-      ],
       [
         {
           "date": "2025-11-02",
@@ -2012,10 +1975,41 @@
           "count": 2,
           "level": 1
         }
+      ],
+      [
+        {
+          "date": "2026-11-01",
+          "count": 2,
+          "level": 1
+        }
       ]
     ]
   },
   "repos": [
+    {
+      "name": "Cadence",
+      "description": null,
+      "url": "https://github.com/lajoonpark/Cadence",
+      "homepage": null,
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-11-01T06:37:53Z",
+      "language": null,
+      "release": null,
+      "releaseCount": 0
+    },
+    {
+      "name": "lodestar",
+      "description": null,
+      "url": "https://github.com/lajoonpark/lodestar",
+      "homepage": null,
+      "stars": 0,
+      "forks": 0,
+      "pushedAt": "2026-11-01T00:00:51Z",
+      "language": null,
+      "release": null,
+      "releaseCount": 0
+    },
     {
       "name": "lajoonpark.com",
       "description": null,
@@ -2023,20 +2017,8 @@
       "homepage": "https://lajoonpark-com.vercel.app",
       "stars": 0,
       "forks": 0,
-      "pushedAt": "2026-10-31T05:57:33Z",
+      "pushedAt": "2026-10-31T10:55:44Z",
       "language": "CSS",
-      "release": null,
-      "releaseCount": 0
-    },
-    {
-      "name": "pelorus",
-      "description": null,
-      "url": "https://github.com/lajoonpark/pelorus",
-      "homepage": null,
-      "stars": 0,
-      "forks": 0,
-      "pushedAt": "2026-10-30T23:29:11Z",
-      "language": null,
       "release": null,
       "releaseCount": 0
     },
